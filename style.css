@@ -140,6 +140,7 @@ nav button {
     margin-bottom: 20px;
 }
 /* features section end  */
+/* Frequently Asked Question section start  */
 .faq{
 padding: 10px 12%;
 text-align: center;
@@ -176,6 +177,7 @@ label::after{
     font-size: 34px;
     position: absolute;
     right: 20px;
+    transition: transfrom  2s;
 }
 
 input[type="radio"]{
@@ -194,3 +196,18 @@ input[type="radio"]{
     max-height: 600px;
     padding: 30px 20px;
 }
+
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+/* Frequently Asked Question section end  */
+/* last email address search  start*/
+.faq .email-signup {
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+.faq small{
+    font-size: 13px;
+}
+/* last email address search  end*/
+
