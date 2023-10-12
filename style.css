@@ -290,9 +290,25 @@ input[type="radio"]{
     .features P {
         font-size: 15PX;
     }
-.row:ntn-child(2), .row:ntn-child(4){
-    flex-direction: column-reverse;
-}
+    .row:ntn-child(2), .row:ntn-child(4){
+        flex-direction: column-reverse;
+    }
+     .features.row {
+        padding: 10px 0;
+     }
+     .faq h2 {
+        font-size: 20px;
+     }
+     .accordion .content {
+        font-size: 14px;
+     }
+     .accordion li label{
+        padding: 10px;
+        font-size: 14px;
+     }
+     label::after{
+        font-size: 22px;
+     }
 }
 
 
