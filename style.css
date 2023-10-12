@@ -211,3 +211,88 @@ input[type="radio"]{
 }
 /* last email address search  end*/
 
+/* footer section start  */
+
+.footer{
+    padding: 50px 15px 10px;
+    border-top: 6px solid #333;
+    color: #777;
+
+}
+
+.footer h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a {
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+ 
+.footer .row {
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.footer .language-btn {
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.copyright-text {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* footer section start end */
+
+/* media queries-for-small-screen  */
+
+@media only screen and (max-width:600px) {
+    .logo {
+        width: 100px;
+    }
+    nav button {
+        padding: 5px 10px;
+    }
+    nav .language-btn{
+        padding: 4px 8px;
+    }
+    .header-content {
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+    }
+    .header-content h1 {
+        font-size: 30px;
+    }
+    .email-signup button {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .text-col, .img-col {
+        flex-basis: 100%;
+    }
+    .features h2 {
+        font-size: 30PX;
+    }
+    .features P {
+        font-size: 15PX;
+    }
+.row:ntn-child(2), .row:ntn-child(4){
+    flex-direction: column-reverse;
+}
+}
+
+
